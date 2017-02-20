@@ -1,0 +1,257 @@
+.navigation {
+    text-align: center;
+    background-color: #79a6d2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+}
+
+.navigation li {
+    padding-top: 15px;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-right: 10px;
+	max-width: 600px;
+}
+
+.navigation ul {
+    margin: 0px;
+    height: 50px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation li a:hover {
+    color: #000000;
+}
+
+h1 {
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+	font-family: 'Dosis', sans-serif;
+	padding-top: 100px;
+	font-size: 50px;
+	}
+
+.trump-container {
+    height: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
+	font-family: 'Dosis', sans-serif;
+	
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: contain;
+    background-image: url('assets/trumpfinal.jpg');
+    background-repeat: no-repeat;
+}
+.box {
+    float: left;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding: 25px;
+	text-align: center;
+	margin-bottom: 100px;
+	border-style:solid;
+	border-width: 5px;
+	
+	white-space: nowrap;
+	position: relative;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	color: #00001a;
+	
+	
+}
+.box1{
+	border-color: green;
+	width: 180px;
+	}
+	
+.box1 a{
+	color: #3973ac;
+}
+
+.box2{
+	border-color: #3973ac;
+	margin-left: 100px;
+}
+
+.box2 a{
+	color: #3973ac;
+}
+
+.box3{
+	border-color: #a6ff4d;
+	margin-left: 100px;
+}
+.box3 a{
+	color: #3973ac;
+}
+
+.marko{
+	padding-bottom: 100px;
+	padding-top: 100px;
+	position: relative;
+	text-align: center;
+	margin-left:auto;
+    margin-right:auto;
+	width: 960px;
+	
+}
+
+
+.blog-post h2 {
+    transition: 1s;
+    font-size: 1em;
+	
+}
+
+.blog-post h2:hover {
+    transition: 1s;
+    color: #000000;
+}
+
+.blog-post {
+    position:relative;
+	top: 0px;
+	width: 70%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    color: none;
+    background-color:#bae8f7;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	
+}
+.blog-post a {
+    text-decoration: none;
+    color: #fff;
+}
+.firstone{
+	border-color: green;
+}
+.secondone {
+	border-color: #3973ac;
+}
+
+.thirdone {
+	border-color: #a6ff4d;
+}
+
+.resize {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+
+.footer {
+    width: 100%;
+    height: 120px;
+    margin-top: 30px;
+    padding-top: 5px;
+	margin-bottom: 0px;
+	padding-bottom: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+	
+	
+}
+   
+
+@media screen and (max-width: 960px) {
+   
+   
+   .marko {
+	width: 960px;
+	height: 250px;
+	position: relative;
+	text-align: center;
+	margin-left: -130px;
+	top:50%;
+	left:50%;
+	
+   }
+   
+   .box { 
+    float: none;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding: 25px;
+	text-align: center;
+	margin-bottom: 50px;
+	white-space: nowrap;
+	position: relative;  
+	
+  }
+  .box1{
+	
+	width: 170px;
+	
+	}
+
+.box2{
+	
+	width: 170px;
+	
+}
+.box3{
+	
+	width: 170px;
+}
+
+h1{
+    position: relative;
+    margin-top: -50px;
+    text-align: center;
+	font-family: 'Dosis', sans-serif;
+	margin-bottom: 0px;
+	
+	
+}
+.trump-container {
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+    width:500px;
+    height:300px;
+}
+
+.blog-post {
+    position:relative;
+	top: 0px;
+	width: 70%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+	
+}
+}
