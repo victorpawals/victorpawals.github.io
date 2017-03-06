@@ -3,16 +3,27 @@
 
 <head>
     
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="	
+	crossorigin="anonymous">
+	</script>
+	
+
+	<meta charset="utf-8">
+	
     <meta name="author" content="Don Victor" />
-    <meta name="description" content="Don Victor's good stuff" />
+    <meta name="description" content="Don Victor's slave market" />
     <link rel="shortcut icon" href="assets/windmill.ico" />
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="stylesheetmain.css">
+	<link rel="stylesheet" type="text/css" href="slideshow.css">
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <title>Don Victorin Mylly </title>
 </head>
 
 <body>
+
+
     <nav class="navigation">
         <ul>
             <li><a href="mainpage.html">Home</a></li>
@@ -26,32 +37,53 @@
 		<h1>Tuulivoimaa suomeen</h1>
     </header>
     <section>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			<div class="firstArticle slideshow" id="testing1"></div>
+		</div>
+			
+		<a class="prev" onclick="nextSlide()">&#10094;</a>
+		<a class="next" onclick="nextSlide()">&#10095;</a>
+		</div>
+		<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
 		<article class="marko">
-			<div class="box box1"><a href="#first">Mik√§ ihmeen tuulivoima?</a></div>
+			<div class="box box1"><a href="#first">Mik‰ ihmeen tuulivoima?</a></div>
 			<div class="box box2"><a href="#second">Miksi tuulivoimaa?</a></div>
 			<div class="box box3"><a href="#third">Miten saan tuulivoimaa?</a></div>
 		</article>
+		<article class="post">
+			<h2> the content</h2>
+			<p> more content</p>
+		</article>
         <article id="first" class="post firstone">
-            <h2>Mik√§ ihmeen tuulivoima?</h2>
-            <p>Tuulivoima on tuulen liike-energian muuntamista s√§hk√∂ksi, yleens√§ tuuliturbiinien py√∂rivien lapojen v√§lityksell√§.</p>
+            <h2>Mik‰ ihmeen tuulivoima?</h2>
+            <p>Tuulivoima on tuulen liike-energian muuntamista s‰hkˆksi, yleens‰ tuuliturbiinien pyˆrivien lapojen v‰lityksell‰.</p>
             <img class="resize" src="assets/power.jpg" alt="Could not load picture" width="500px">
         </article>
         <article id="second" class="post secondone">
             <h2>Miksi tuulivoimaa?</h2>
-            <p>Tuulivoima on puhdas energian l√§hde. Tuulivoimalat ei saastuta ilmaa voimaloiden tapaan, jotka saavat energiansa fossiilista polttoaineista, niin kuin hiilest√§ tai luonnonkaasuista. </p>
+            <p>Tuulivoima on puhdas energian l‰hde. Tuulivoimalat ei saastuta ilmaa voimaloiden tapaan, jotka saavat energiansa fossiilista polttoaineista, niin kuin hiilest‰ tai luonnonkaasuista. </p>
             <img class="resize" src="assets/clean.png" alt="Could not load picture" width="500px">
         </article>
 		<article id="third" class="post thirdone">
             <h2>Miten saan tuulivoimaa?</h2>
-            <p>Ota yhteytt√§ minuun niin voin auttaa sinua googlaamisen kanssa.</p>
+            <p>Ota yhteytt‰ minuun niin voin auttaa sinua googlaamisen kanssa.</p>
             <img class="resize" src="assets/simo.jpg" alt="Could not load picture" width="500px">
         </article>
     </section>
     <footer class="footer">Tuulivoimaa suomeen
 
 
-        <p>Copyright 2017 by Don Victor the Great. Owned by the Don Victor corporation. Kun pelaat mit√§ tahansa vanhaa mario bros peli√§ ja kuolet, niin voit painaa A:ta ja starttia samanaikasesti, niin p√§√§set yritt√§m√§√§n edellist√§ tasoa uudestaan. Neandertalinihmisill√§ oli isommat aivot kun sinulla. </p>
+        <p>Copyright 2017 by Don Victor the Great. Owned by the Don Victor corporation. Kun pelaat mit‰ tahansa vanhaa mario bros peli‰ ja kuolet, niin voit painaa A:ta ja starttia samanaikasesti, niin p‰‰set yritt‰m‰‰n edellist‰ tasoa uudestaan. Neandertalinihmisill‰ oli isommat aivot kun sinulla. </p>
     </footer>
 </body>
+
+<script src="slideshow.js" type="text/javascript"></script>
 
 </html>
